@@ -1,0 +1,971 @@
+﻿Log file open, 01/27/17 12:57:27
+LogInit:Display: Running engine for game: BoilerSpaceShooter
+LogInit:Display: Project file not found: ../../../BoilerSpaceShooter/BoilerSpaceShooter.uproject
+LogInit:Display: 	Attempting to find via project info helper.
+LogUProjectInfo: Found projects:
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-743223349) SRandInit(-743223349).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 1.356816
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin Paper2D, From C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogModuleManager:Warning: ModuleManager: Module 'XMPP' not found - its StaticallyLinkedModuleInitializers function is null.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for i386-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (32-bit): Oct 24 2016 14:36:25
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line:  
+LogInit: Base directory: C:/Users/Frank/Desktop/Bolier Space Shooter v4.2.1[exe]/Engine/Binaries/Win32/
+LogInit: Installed Engine Build: 0
+LogInit: Presizing for max 2097152 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.01.27-17.57.27:300][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2017.01.27-17.57.27:300][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2017.01.27-17.57.27:306][  0]LogInit: Computer: FRANK-XPS-WIN10
+[2017.01.27-17.57.27:306][  0]LogInit: User: Frank
+[2017.01.27-17.57.27:306][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.01.27-17.57.27:306][  0]LogInit: High frequency timer resolution =3.328129 MHz
+[2017.01.27-17.57.27:306][  0]LogMemory: Memory total: Physical=3.9GB (0GB approx) Virtual=4.0GB
+[2017.01.27-17.57.27:306][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2017.01.27-17.57.27:306][  0]LogMemory: Process Physical Memory: 66.73 MB used, 66.73 MB peak
+[2017.01.27-17.57.27:306][  0]LogMemory: Process Virtual Memory: 83.07 MB used, 83.07 MB peak
+[2017.01.27-17.57.27:307][  0]LogMemory: Physical Memory: 2623.48 MB used, 4034.83 MB total
+[2017.01.27-17.57.27:307][  0]LogMemory: Virtual Memory: 282.66 MB used, 4095.88 MB total
+[2017.01.27-17.57.27:400][  0]LogTextLocalizationManager: No translations for ('zh-CN') exist, falling back to 'en' for localization and internationalization data.
+[2017.01.27-17.57.27:505][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.27-17.57.27:534][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 730' (Feature Level 11_0)
+[2017.01.27-17.57.27:534][  0]LogD3D11RHI:       2018/0/2077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.01.27-17.57.27:535][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.01.27-17.57.27:535][  0]LogD3D11RHI:       0/0/4095 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.01.27-17.57.27:535][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.27-17.57.27:539][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.27-17.57.27:540][  0]LogD3D11RHI:     GPU DeviceId: 0x1287 (for the marketing name, search the web for "GPU Device Id")
+[2017.01.27-17.57.27:540][  0]LogWindows: EnumDisplayDevices:
+[2017.01.27-17.57.27:540][  0]LogWindows:    0. 'NVIDIA GeForce GT 730' (P:1 D:1)
+[2017.01.27-17.57.27:540][  0]LogWindows:    1. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.01.27-17.57.27:541][  0]LogWindows:    2. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.01.27-17.57.27:541][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.01.27-17.57.27:541][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 730
+[2017.01.27-17.57.27:541][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
+[2017.01.27-17.57.27:541][  0]LogD3D11RHI:      Driver Date: 12-11-2016
+[2017.01.27-17.57.27:541][  0]LogRHI: Texture pool is 716 MB (70% of 1024 MB)
+[2017.01.27-17.57.27:553][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.27-17.57.27:566][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.01.27-17.57.27:642][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
+[2017.01.27-17.57.27:643][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.001133 seconds
+[2017.01.27-17.57.27:647][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.01.27-17.57.27:647][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2017.01.27-17.57.27:685][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: boilerspaceshooter, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 1738549100
+[2017.01.27-17.57.27:720][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.27-17.57.27:731][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.27-17.57.27:731][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.27-17.57.27:786][  0]LogMoviePlayer: Initializing movie player
+[2017.01.27-17.57.27:849][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../BoilerSpaceShooter/Content/Movies/Default_Startup.mp4
+[2017.01.27-17.57.27:888][  0]LogUObjectArray: 28472 objects as part of root set at end of initial load.
+[2017.01.27-17.57.27:888][  0]LogUObjectAllocator: 3886972 out of 0 bytes used by permanent object pool.
+[2017.01.27-17.57.27:888][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.27-17.57.27:899][  0]LogEngine: Initializing Engine...
+[2017.01.27-17.57.27:900][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.01.27-17.57.27:952][  0]LogInit: XAudio2 using '扬声器/听筒 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.27-17.57.27:973][  0]LogInit: FAudioDevice initialized.
+[2017.01.27-17.57.27:973][  0]LogInit: Texture streaming: Enabled
+[2017.01.27-17.57.27:983][  0]LogInit:Display: Game Engine Initialized.
+[2017.01.27-17.57.27:983][  0]LogInit:Display: Starting Game.
+[2017.01.27-17.57.27:983][  0]LogNet: Browse: /Game/Maps/Main?Name=Player
+[2017.01.27-17.57.27:983][  0]LogLoad: LoadMap: /Game/Maps/Main?Name=Player
+[2017.01.27-17.57.27:994][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2017.01.27-17.57.27:994][  0]LogMemory: Process Physical Memory: 185.68 MB used, 185.68 MB peak
+[2017.01.27-17.57.27:994][  0]LogMemory: Process Virtual Memory: 168.02 MB used, 168.02 MB peak
+[2017.01.27-17.57.27:994][  0]LogMemory: Physical Memory: 2748.65 MB used, 4034.83 MB total
+[2017.01.27-17.57.27:994][  0]LogMemory: Virtual Memory: 576.14 MB used, 4095.88 MB total
+[2017.01.27-17.57.27:994][  0]LogMemory: 
+[2017.01.27-17.57.27:994][  0]LogMemory: Allocator Stats for binned:
+[2017.01.27-17.57.27:994][  0]LogMemory: Current Memory 71.59 MB used, plus 5.85 MB waste
+[2017.01.27-17.57.27:994][  0]LogMemory: Peak Memory 75.18 MB used, plus 4.19 MB waste
+[2017.01.27-17.57.27:994][  0]LogMemory: Current OS Memory 77.44 MB, peak 79.38 MB
+[2017.01.27-17.57.27:994][  0]LogMemory: Current Waste 1.10 MB, peak 1.27 MB
+[2017.01.27-17.57.27:994][  0]LogMemory: Current Used 71.59 MB, peak 75.18 MB
+[2017.01.27-17.57.27:994][  0]LogMemory: Current Slack 3.11 MB
+[2017.01.27-17.57.27:994][  0]LogMemory: Allocs       139312 Current /  611700 Total
+[2017.01.27-17.57.27:994][  0]LogMemory: 
+[2017.01.27-17.57.27:994][  0]LogMemory: Block Size Num Pools Max Pools Cur Allocs Total Allocs Min Req Max Req Mem Used Mem Slack Mem Waste Efficiency
+[2017.01.27-17.57.27:994][  0]LogMemory: ---------- --------- --------- ---------- ------------ ------- ------- -------- --------- --------- ----------
+[2017.01.27-17.57.27:994][  0]LogMemory:          8         2         2       9308        33730       8       8      72K       56K        0K    100.00%
+[2017.01.27-17.57.27:994][  0]LogMemory:         16         6         6      23805        86349       9      16     371K       13K       25K     93.49%
+[2017.01.27-17.57.27:994][  0]LogMemory:         32         6         6       9999        34514      17      32     312K       72K       59K     84.64%
+[2017.01.27-17.57.27:994][  0]LogMemory:         48        16        16      21398        56107      33      48    1003K       21K       99K     90.33%
+[2017.01.27-17.57.27:995][  0]LogMemory:         64        13        13      12821        56232      49      64     801K       31K       71K     91.47%
+[2017.01.27-17.57.27:995][  0]LogMemory:         80         8         8       5918        71324      65      80     462K       50K       33K     93.55%
+[2017.01.27-17.57.27:995][  0]LogMemory:         96        33        33      22129        63097      81      96    2074K       36K      106K     94.98%
+[2017.01.27-17.57.27:995][  0]LogMemory:        112         8        12       3730        37942      97     112     407K      105K       15K     97.07%
+[2017.01.27-17.57.27:995][  0]LogMemory:        128        15        15       7175        20635     114     128     896K       64K       34K     96.46%
+[2017.01.27-17.57.27:995][  0]LogMemory:        160         5         5       1997        25132     129     160     312K        8K       34K     89.38%
+[2017.01.27-17.57.27:995][  0]LogMemory:        192         6         6       1861        15156     161     192     348K       36K       28K     92.71%
+[2017.01.27-17.57.27:995][  0]LogMemory:        224        22        36       5850        39764     193     224    1279K      127K       57K     95.95%
+[2017.01.27-17.57.27:995][  0]LogMemory:        256         5         5       1150        29940     225     256     287K       33K       10K     96.88%
+[2017.01.27-17.57.27:995][  0]LogMemory:        288        12        12       2612         8135     257     288     734K       33K       52K     93.23%
+[2017.01.27-17.57.27:995][  0]LogMemory:        320         4         4        694         8904     290     320     216K       39K       16K     93.75%
+[2017.01.27-17.57.27:995][  0]LogMemory:        384        10        11       1697         4123     322     384     636K        2K       47K     92.66%
+[2017.01.27-17.57.27:995][  0]LogMemory:        448        15        15       2028         3091     386     448     887K       72K       70K     92.71%
+[2017.01.27-17.57.27:995][  0]LogMemory:        512        10        11       1074         3045     450     512     537K      103K       15K     97.66%
+[2017.01.27-17.57.27:995][  0]LogMemory:        576         8         9        719         1519     514     576     404K      105K       21K     95.90%
+[2017.01.27-17.57.27:995][  0]LogMemory:        640         2         2         97          165     580     640      60K       68K        2K     98.44%
+[2017.01.27-17.57.27:995][  0]LogMemory:        704         4         4        317         1197     642     704     217K       39K        7K     97.27%
+[2017.01.27-17.57.27:995][  0]LogMemory:        768         7         7        359          713     706     768     269K      178K       13K     97.10%
+[2017.01.27-17.57.27:995][  0]LogMemory:        896         4         5        274          644     769     896     239K       17K       13K     94.92%
+[2017.01.27-17.57.27:995][  0]LogMemory:       1024         7         7        262          936     899    1024     262K      186K       10K     97.77%
+[2017.01.27-17.57.27:995][  0]LogMemory:       1168         7         7        315          872    1025    1168     359K       89K       14K     96.88%
+[2017.01.27-17.57.27:995][  0]LogMemory:       1360         4         4        138          253    1171    1360     183K       72K       12K     95.31%
+[2017.01.27-17.57.27:995][  0]LogMemory:       1632         5         5        168          518    1363    1632     267K       52K       23K     92.81%
+[2017.01.27-17.57.27:995][  0]LogMemory:       2048        11        11        238          709    1640    2048     476K      228K       53K     92.47%
+[2017.01.27-17.57.27:995][  0]LogMemory:       2336         6         6        138         1839    2050    2335     314K       70K       35K     90.89%
+[2017.01.27-17.57.27:995][  0]LogMemory:       2720         4         5         76          502    2352    2718     201K       54K       11K     95.70%
+[2017.01.27-17.57.27:995][  0]LogMemory:       3264         8         9         93         1094    2722    3264     296K      214K       19K     96.29%
+[2017.01.27-17.57.27:995][  0]LogMemory:       4096        19        22        191          639    3266    4096     764K      452K       70K     94.24%
+[2017.01.27-17.57.27:995][  0]LogMemory:       4672        13        14        139          373    4104    4670     634K      197K       40K     95.19%
+[2017.01.27-17.57.27:995][  0]LogMemory:       5456        14        19         90          329    4674    5453     479K      417K       40K     95.54%
+[2017.01.27-17.57.27:995][  0]LogMemory:       6544        16        20         97          322    5461    6542     619K      404K       54K     94.73%
+[2017.01.27-17.57.27:995][  0]LogMemory:       8192        10        10         66          888    6545    8192     528K      112K       39K     93.91%
+[2017.01.27-17.57.27:995][  0]LogMemory:       9360         7         8         47           95    8200    9360     429K       19K       31K     93.08%
+[2017.01.27-17.57.27:995][  0]LogMemory:      10912         6         6         31           73    9408   10592     330K       54K       29K     92.45%
+[2017.01.27-17.57.27:995][  0]LogMemory:      13104         6         7         28           49   10955   13056     358K       26K       28K     92.71%
+[2017.01.27-17.57.27:995][  0]LogMemory:      16384         9        12         34          144   13120   16384     544K       32K       39K     93.23%
+[2017.01.27-17.57.27:995][  0]LogMemory:      21840        18        22         43          122   16392   21766     917K      235K      136K     88.19%
+[2017.01.27-17.57.27:995][  0]LogMemory:      32768        14        14         22           79   21904   32640     704K      192K      139K     84.49%
+[2017.01.27-17.57.27:995][  0]LogMemory:      49152         5         5         16          225       0   49152     768K      192K      235K     75.52%
+[2017.01.27-17.57.27:995][  0]LogMemory:      98304         2         3          5           20       0   87760     480K      288K      120K     84.38%
+[2017.01.27-17.57.27:995][  0]LogMemory: 
+[2017.01.27-17.57.27:995][  0]LogMemory: 27648K allocated in pools (with 4893K slack and 2004K waste). Efficiency 92.75%
+[2017.01.27-17.57.27:995][  0]LogMemory: Allocations 139250 Current / 611540 Total (in 412 pools)
+[2017.01.27-17.57.27:995][  0]LogMemory: 
+[2017.01.27-17.57.28:034][  0]LogAIModule: Creating AISystem for world Main
+[2017.01.27-17.57.28:035][  0]LogWorld: Game class is 'Shooter_C'
+[2017.01.27-17.57.28:038][  0]LogWorld: Bringing World /Game/Maps/Main.Main up for play (max tick rate 0) at 2017.01.27-12.57.28
+[2017.01.27-17.57.28:039][  0]LogWorld: Bringing up level for play took: 0.002128
+[2017.01.27-17.57.28:039][  0]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.27-17.57.28:040][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.01.27-17.57.28:040][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.01.27-17.57.28:040][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.01.27-17.57.28:044][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.01.27-17.57.28:044][  0]LogLoad: Took 0.060143 seconds to LoadMap(/Game/Maps/Main)
+[2017.01.27-17.57.28:245][  0]LogLoad: (Engine Initialization) Total time: 2.48 seconds
+[2017.01.27-17.57.28:245][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.01.27-17.57.28:262][  0]LogOcInput: OculusInput pre-init called
+[2017.01.27-17.57.28:326][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
+[2017.01.27-17.57.28:441][  1]LogRenderer: Reallocating scene render targets to support 1600x900 (Frame:2).
+[2017.01.27-17.57.44:693][468]LogScript:Warning: Attempted to access BPEnemy_C_0 via property CallFunc_Array_Get_Item, but BPEnemy_C_0 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.57.44:693][468]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.57.44:693][468]LogScript:Warning: Attempted to access BPEnemy_C_1 via property CallFunc_Array_Get_Item, but BPEnemy_C_1 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.57.44:693][468]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.57.44:693][468]LogScript:Warning: Attempted to access BPEnemy_C_3 via property CallFunc_Array_Get_Item, but BPEnemy_C_3 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.57.44:693][468]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.57.44:693][468]LogScript:Warning: Attempted to access BPEnemy_C_4 via property CallFunc_Array_Get_Item, but BPEnemy_C_4 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.57.44:693][468]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.57.44:693][468]LogScript:Warning: Attempted to access BPEnemy_C_5 via property CallFunc_Array_Get_Item, but BPEnemy_C_5 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.57.44:693][468]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.57.44:693][468]LogScript:Warning: Attempted to access BPEnemy_C_6 via property CallFunc_Array_Get_Item, but BPEnemy_C_6 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.57.44:693][468]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.57.44:693][468]LogScript:Warning: Attempted to access BPEnemy_C_7 via property CallFunc_Array_Get_Item, but BPEnemy_C_7 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.57.44:693][468]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.57.44:693][468]LogScript:Warning: Attempted to access BPEnemy_C_8 via property CallFunc_Array_Get_Item, but BPEnemy_C_8 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.57.44:693][468]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.57.44:693][468]LogScript:Warning: Attempted to access BPEnemy_C_9 via property CallFunc_Array_Get_Item, but BPEnemy_C_9 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.57.44:693][468]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.57.44:693][468]LogScript:Warning: Attempted to access BPEnemy_C_10 via property CallFunc_Array_Get_Item, but BPEnemy_C_10 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.57.44:693][468]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.57.44:693][468]LogScript:Warning: Attempted to access BPEnemy_C_13 via property CallFunc_Array_Get_Item, but BPEnemy_C_13 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.57.44:694][468]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.57.44:694][468]LogScript:Warning: Attempted to access BPEnemy_C_14 via property CallFunc_Array_Get_Item, but BPEnemy_C_14 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.57.44:694][468]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.57.44:737][469]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.01.27-17.57.44:737][469]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.01.27-17.57.44:737][469]LogNet: Browse: /Game/Maps/Main
+[2017.01.27-17.57.44:737][469]LogLoad: LoadMap: /Game/Maps/Main
+[2017.01.27-17.57.44:794][469]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2017.01.27-17.57.44:794][469]LogMemory: Process Physical Memory: 215.25 MB used, 223.59 MB peak
+[2017.01.27-17.57.44:794][469]LogMemory: Process Virtual Memory: 188.54 MB used, 197.81 MB peak
+[2017.01.27-17.57.44:794][469]LogMemory: Physical Memory: 2762.36 MB used, 4034.83 MB total
+[2017.01.27-17.57.44:794][469]LogMemory: Virtual Memory: 607.54 MB used, 4095.88 MB total
+[2017.01.27-17.57.44:794][469]LogMemory: 
+[2017.01.27-17.57.44:795][469]LogMemory: Allocator Stats for binned:
+[2017.01.27-17.57.44:795][469]LogMemory: Current Memory 80.08 MB used, plus 7.23 MB waste
+[2017.01.27-17.57.44:795][469]LogMemory: Peak Memory 86.77 MB used, plus 4.36 MB waste
+[2017.01.27-17.57.44:795][469]LogMemory: Current OS Memory 87.31 MB, peak 91.13 MB
+[2017.01.27-17.57.44:795][469]LogMemory: Current Waste 1.19 MB, peak 1.39 MB
+[2017.01.27-17.57.44:795][469]LogMemory: Current Used 80.08 MB, peak 86.77 MB
+[2017.01.27-17.57.44:795][469]LogMemory: Current Slack 4.29 MB
+[2017.01.27-17.57.44:795][469]LogMemory: Allocs       143802 Current /  878311 Total
+[2017.01.27-17.57.44:795][469]LogMemory: 
+[2017.01.27-17.57.44:795][469]LogMemory: Block Size Num Pools Max Pools Cur Allocs Total Allocs Min Req Max Req Mem Used Mem Slack Mem Waste Efficiency
+[2017.01.27-17.57.44:795][469]LogMemory: ---------- --------- --------- ---------- ------------ ------- ------- -------- --------- --------- ----------
+[2017.01.27-17.57.44:795][469]LogMemory:          8         2         2       9495        47198       8       8      74K       54K        0K    100.00%
+[2017.01.27-17.57.44:795][469]LogMemory:         16         7         7      25177       121124       9      16     393K       55K       21K     95.31%
+[2017.01.27-17.57.44:795][469]LogMemory:         32         6         6      10741        62568      17      32     335K       49K       46K     88.02%
+[2017.01.27-17.57.44:795][469]LogMemory:         48        18        18      21928        74362      33      48    1027K      125K       94K     91.84%
+[2017.01.27-17.57.44:795][469]LogMemory:         64        15        15      13203       119056      49      64     825K      135K       87K     90.94%
+[2017.01.27-17.57.44:795][469]LogMemory:         80         8         8       6131        86311      65      80     478K       34K       33K     93.55%
+[2017.01.27-17.57.44:795][469]LogMemory:         96        35        35      22233        79753      81      96    2084K      154K      120K     94.64%
+[2017.01.27-17.57.44:795][469]LogMemory:        112         8        12       3911        41919      97     112     427K       85K       17K     96.68%
+[2017.01.27-17.57.44:795][469]LogMemory:        128        15        15       7292        28205     114     128     911K       49K       34K     96.46%
+[2017.01.27-17.57.44:795][469]LogMemory:        160         7         7       2112        33778     129     160     330K      118K       37K     91.74%
+[2017.01.27-17.57.44:795][469]LogMemory:        192         7         7       1942        19477     161     192     364K       84K       28K     93.75%
+[2017.01.27-17.57.44:795][469]LogMemory:        224        22        36       5864        43018     193     224    1282K      124K       60K     95.74%
+[2017.01.27-17.57.44:795][469]LogMemory:        256         6         6       1178        33560     225     256     294K       90K       11K     97.14%
+[2017.01.27-17.57.44:795][469]LogMemory:        288        13        13       2658        18037     257     288     747K       83K       47K     94.35%
+[2017.01.27-17.57.44:795][469]LogMemory:        320         5         5        708        11975     290     320     221K       98K       14K     95.63%
+[2017.01.27-17.57.44:795][469]LogMemory:        384        12        12       1711         8626     322     384     641K      124K       57K     92.58%
+[2017.01.27-17.57.44:795][469]LogMemory:        448        15        15       2053         4437     386     448     898K       61K       73K     92.40%
+[2017.01.27-17.57.44:795][469]LogMemory:        512        11        11       1083         6908     450     512     541K      163K       15K     97.87%
+[2017.01.27-17.57.44:795][469]LogMemory:        576         9        10        736         5182     514     576     414K      159K       31K     94.62%
+[2017.01.27-17.57.44:795][469]LogMemory:        640         2         2        103          310     580     640      64K       64K        3K     97.66%
+[2017.01.27-17.57.44:795][469]LogMemory:        704         5         5        320         1952     642     704     220K      100K        8K     97.50%
+[2017.01.27-17.57.44:795][469]LogMemory:        768         7         8        357         1683     706     768     267K      180K       11K     97.54%
+[2017.01.27-17.57.44:795][469]LogMemory:        896         5         6        289          976     769     896     252K       68K       15K     95.31%
+[2017.01.27-17.57.44:795][469]LogMemory:       1024         8         8        269         9257     899    1024     269K      243K        5K     99.02%
+[2017.01.27-17.57.44:795][469]LogMemory:       1168         8         8        329         1124    1025    1168     375K      136K       16K     96.88%
+[2017.01.27-17.57.44:795][469]LogMemory:       1360         4         4        142          499    1171    1360     188K       67K       12K     95.31%
+[2017.01.27-17.57.44:795][469]LogMemory:       1632         7        11        170          871    1361    1632     270K      177K       27K     93.97%
+[2017.01.27-17.57.44:795][469]LogMemory:       2048        13        13        241         1199    1640    2048     482K      350K       58K     93.03%
+[2017.01.27-17.57.44:795][469]LogMemory:       2336         6         6        140         1939    2050    2335     319K       65K       35K     90.89%
+[2017.01.27-17.57.44:795][469]LogMemory:       2720         5         5         88          562    2340    2718     233K       86K       13K     95.94%
+[2017.01.27-17.57.44:795][469]LogMemory:       3264         8         9        100         4150    2722    3264     318K      192K       22K     95.70%
+[2017.01.27-17.57.44:795][469]LogMemory:       4096        19        22        236          758    3266    4096     944K      272K       89K     92.68%
+[2017.01.27-17.57.44:795][469]LogMemory:       4672        14        14        166          446    4104    4670     757K      138K       48K     94.64%
+[2017.01.27-17.57.44:795][469]LogMemory:       5456        14        19        105          387    4674    5453     559K      337K       47K     94.75%
+[2017.01.27-17.57.44:795][469]LogMemory:       6544        16        20        102          355    5461    6542     651K      372K       58K     94.34%
+[2017.01.27-17.57.44:795][469]LogMemory:       8192        10        11         64         1383    6545    8192     512K      128K       51K     92.03%
+[2017.01.27-17.57.44:795][469]LogMemory:       9360         8         8         50          106    8200    9360     457K       55K       33K     93.55%
+[2017.01.27-17.57.44:795][469]LogMemory:      10912         7         7         41          561    9408   10592     436K       12K       28K     93.75%
+[2017.01.27-17.57.44:795][469]LogMemory:      13104         8         8         32           60   10955   13056     409K      103K       32K     93.75%
+[2017.01.27-17.57.44:795][469]LogMemory:      16384        11        12         36          459   13120   16384     576K      128K       16K     97.73%
+[2017.01.27-17.57.44:795][469]LogMemory:      21840        18        22         40          137   16392   21766     853K      299K      129K     88.80%
+[2017.01.27-17.57.44:795][469]LogMemory:      32768        16        17         28           95   21863   32640     896K      128K      183K     82.13%
+[2017.01.27-17.57.44:795][469]LogMemory:      49152         7         7         20          238       0   49152     960K      384K      289K     78.50%
+[2017.01.27-17.57.44:795][469]LogMemory:      98304         2         3          5           29       0   87760     480K      288K      131K     82.94%
+[2017.01.27-17.57.44:795][469]LogMemory: 
+[2017.01.27-17.57.44:795][469]LogMemory: 30272K allocated in pools (with 6216K slack and 2184K waste). Efficiency 92.79%
+[2017.01.27-17.57.44:795][469]LogMemory: Allocations 143630 Current / 875031 Total (in 449 pools)
+[2017.01.27-17.57.44:795][469]LogMemory: 
+[2017.01.27-17.57.44:830][469]LogAIModule: Creating AISystem for world Main
+[2017.01.27-17.57.44:831][469]LogWorld: Game class is 'Shooter_C'
+[2017.01.27-17.57.44:833][469]LogWorld: Bringing World /Game/Maps/Main.Main up for play (max tick rate 0) at 2017.01.27-12.57.44
+[2017.01.27-17.57.44:833][469]LogWorld: Bringing up level for play took: 0.000684
+[2017.01.27-17.57.44:833][469]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.27-17.57.44:834][469]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.01.27-17.57.44:834][469]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.01.27-17.57.44:834][469]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.01.27-17.57.44:834][469]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.01.27-17.57.44:835][469]LogLoad: Took 0.097695 seconds to LoadMap(/Game/Maps/Main)
+[2017.01.27-17.58.04:685][ 35]LogScript:Warning: Attempted to access BPEnemy_C_0 via property CallFunc_Array_Get_Item, but BPEnemy_C_0 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.04:685][ 35]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.04:685][ 35]LogScript:Warning: Attempted to access BPEnemy_C_1 via property CallFunc_Array_Get_Item, but BPEnemy_C_1 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.04:685][ 35]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.04:685][ 35]LogScript:Warning: Attempted to access BPEnemy_C_2 via property CallFunc_Array_Get_Item, but BPEnemy_C_2 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.04:685][ 35]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Attempted to access BPEnemy_C_3 via property CallFunc_Array_Get_Item, but BPEnemy_C_3 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Attempted to access BPEnemy_C_4 via property CallFunc_Array_Get_Item, but BPEnemy_C_4 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Attempted to access BPEnemy_C_5 via property CallFunc_Array_Get_Item, but BPEnemy_C_5 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Attempted to access BPEnemy_C_6 via property CallFunc_Array_Get_Item, but BPEnemy_C_6 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Attempted to access BPEnemy_C_7 via property CallFunc_Array_Get_Item, but BPEnemy_C_7 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Attempted to access BPEnemy_C_8 via property CallFunc_Array_Get_Item, but BPEnemy_C_8 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Attempted to access BPEnemy_C_9 via property CallFunc_Array_Get_Item, but BPEnemy_C_9 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Attempted to access BPEnemy_C_10 via property CallFunc_Array_Get_Item, but BPEnemy_C_10 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Attempted to access BPEnemy_C_11 via property CallFunc_Array_Get_Item, but BPEnemy_C_11 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Attempted to access BPEnemy_C_12 via property CallFunc_Array_Get_Item, but BPEnemy_C_12 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Attempted to access BPEnemy_C_15 via property CallFunc_Array_Get_Item, but BPEnemy_C_15 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Attempted to access BPEnemy_C_16 via property CallFunc_Array_Get_Item, but BPEnemy_C_16 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.04:686][ 35]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.04:715][ 36]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.01.27-17.58.04:715][ 36]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.01.27-17.58.04:715][ 36]LogNet: Browse: /Game/Maps/Main
+[2017.01.27-17.58.04:715][ 36]LogLoad: LoadMap: /Game/Maps/Main
+[2017.01.27-17.58.04:729][ 36]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2017.01.27-17.58.04:729][ 36]LogMemory: Process Physical Memory: 217.76 MB used, 223.59 MB peak
+[2017.01.27-17.58.04:729][ 36]LogMemory: Process Virtual Memory: 191.08 MB used, 197.81 MB peak
+[2017.01.27-17.58.04:729][ 36]LogMemory: Physical Memory: 2787.80 MB used, 4034.83 MB total
+[2017.01.27-17.58.04:729][ 36]LogMemory: Virtual Memory: 608.29 MB used, 4095.88 MB total
+[2017.01.27-17.58.04:729][ 36]LogMemory: 
+[2017.01.27-17.58.04:729][ 36]LogMemory: Allocator Stats for binned:
+[2017.01.27-17.58.04:729][ 36]LogMemory: Current Memory 80.68 MB used, plus 7.38 MB waste
+[2017.01.27-17.58.04:729][ 36]LogMemory: Peak Memory 86.94 MB used, plus 4.75 MB waste
+[2017.01.27-17.58.04:729][ 36]LogMemory: Current OS Memory 88.06 MB, peak 91.69 MB
+[2017.01.27-17.58.04:729][ 36]LogMemory: Current Waste 1.20 MB, peak 1.39 MB
+[2017.01.27-17.58.04:729][ 36]LogMemory: Current Used 80.68 MB, peak 86.94 MB
+[2017.01.27-17.58.04:729][ 36]LogMemory: Current Slack 4.41 MB
+[2017.01.27-17.58.04:729][ 36]LogMemory: Allocs       143958 Current /  1144197 Total
+[2017.01.27-17.58.04:729][ 36]LogMemory: 
+[2017.01.27-17.58.04:729][ 36]LogMemory: Block Size Num Pools Max Pools Cur Allocs Total Allocs Min Req Max Req Mem Used Mem Slack Mem Waste Efficiency
+[2017.01.27-17.58.04:729][ 36]LogMemory: ---------- --------- --------- ---------- ------------ ------- ------- -------- --------- --------- ----------
+[2017.01.27-17.58.04:729][ 36]LogMemory:          8         2         2       9508        62222       8       8      74K       54K        0K    100.00%
+[2017.01.27-17.58.04:729][ 36]LogMemory:         16         7         7      25259       158286       9      16     394K       54K       17K     96.21%
+[2017.01.27-17.58.04:729][ 36]LogMemory:         32         6         6      10752        94346      17      32     336K       48K       38K     90.10%
+[2017.01.27-17.58.04:729][ 36]LogMemory:         48        18        18      21935        92024      33      48    1028K      124K       91K     92.10%
+[2017.01.27-17.58.04:729][ 36]LogMemory:         64        15        15      13207       185549      49      64     825K      135K       91K     90.52%
+[2017.01.27-17.58.04:729][ 36]LogMemory:         80         8         8       6138        97879      65      80     479K       33K       33K     93.55%
+[2017.01.27-17.58.04:729][ 36]LogMemory:         96        35        35      22236        95047      81      96    2084K      154K      127K     94.33%
+[2017.01.27-17.58.04:729][ 36]LogMemory:        112         8        12       3911        44227      97     112     427K       85K       18K     96.48%
+[2017.01.27-17.58.04:729][ 36]LogMemory:        128        15        15       7299        35309     114     128     912K       48K       32K     96.67%
+[2017.01.27-17.58.04:729][ 36]LogMemory:        160         7         7       2119        42168     129     160     331K      117K       38K     91.52%
+[2017.01.27-17.58.04:729][ 36]LogMemory:        192         7         7       1949        22787     161     192     365K       83K       26K     94.20%
+[2017.01.27-17.58.04:729][ 36]LogMemory:        224        22        36       5864        44111     193     224    1282K      124K       60K     95.74%
+[2017.01.27-17.58.04:729][ 36]LogMemory:        256         6         6       1178        36021     225     256     294K       90K       12K     96.88%
+[2017.01.27-17.58.04:729][ 36]LogMemory:        288        13        13       2657        30145     257     288     747K       83K       45K     94.59%
+[2017.01.27-17.58.04:729][ 36]LogMemory:        320         5         6        709        13957     290     320     221K       98K       13K     95.94%
+[2017.01.27-17.58.04:729][ 36]LogMemory:        384        12        12       1709        11990     322     384     640K      125K       61K     92.06%
+[2017.01.27-17.58.04:729][ 36]LogMemory:        448        15        15       2052         5306     386     448     897K       62K       75K     92.19%
+[2017.01.27-17.58.04:729][ 36]LogMemory:        512        11        11       1080         9021     450     512     540K      164K       18K     97.44%
+[2017.01.27-17.58.04:729][ 36]LogMemory:        576        10        11        736         8742     514     576     414K      222K       34K     94.69%
+[2017.01.27-17.58.04:729][ 36]LogMemory:        640         2         2        102          440     580     640      63K       65K        3K     97.66%
+[2017.01.27-17.58.04:729][ 36]LogMemory:        704         5         5        319         2549     642     704     219K      101K        9K     97.19%
+[2017.01.27-17.58.04:729][ 36]LogMemory:        768         7         8        357         2750     706     768     267K      180K       10K     97.77%
+[2017.01.27-17.58.04:729][ 36]LogMemory:        896         6         6        290         1281     769     896     253K      131K       15K     96.09%
+[2017.01.27-17.58.04:729][ 36]LogMemory:       1024         8         8        271        19238     899    1024     271K      241K        5K     99.02%
+[2017.01.27-17.58.04:729][ 36]LogMemory:       1168         8         8        329         1366    1025    1168     375K      136K       16K     96.88%
+[2017.01.27-17.58.04:729][ 36]LogMemory:       1360         4         4        142          760    1171    1360     188K       67K       12K     95.31%
+[2017.01.27-17.58.04:729][ 36]LogMemory:       1632         7        11        171         1228    1361    1632     272K      175K       29K     93.53%
+[2017.01.27-17.58.04:729][ 36]LogMemory:       2048        12        13        241         1693    1640    2048     482K      286K       60K     92.19%
+[2017.01.27-17.58.04:729][ 36]LogMemory:       2336         6         6        140         2013    2050    2335     319K       65K       35K     90.89%
+[2017.01.27-17.58.04:729][ 36]LogMemory:       2720         5         5         88          610    2340    2718     233K       86K       13K     95.94%
+[2017.01.27-17.58.04:729][ 36]LogMemory:       3264         8         9        100         7140    2722    3264     318K      192K       21K     95.90%
+[2017.01.27-17.58.04:729][ 36]LogMemory:       4096        21        22        237          870    3266    4096     948K      396K       90K     93.30%
+[2017.01.27-17.58.04:729][ 36]LogMemory:       4672        15        16        165          505    4104    4670     752K      207K       47K     95.10%
+[2017.01.27-17.58.04:729][ 36]LogMemory:       5456        14        19        105          441    4674    5453     559K      337K       47K     94.75%
+[2017.01.27-17.58.04:729][ 36]LogMemory:       6544        16        20        102          385    5461    6542     651K      372K       58K     94.34%
+[2017.01.27-17.58.04:729][ 36]LogMemory:       8192        10        11         64         1967    6545    8192     512K      128K       59K     90.78%
+[2017.01.27-17.58.04:729][ 36]LogMemory:       9360         8         8         50          112    8200    9360     457K       55K       33K     93.55%
+[2017.01.27-17.58.04:729][ 36]LogMemory:      10912         8         8         43         1134    9408   10592     458K       54K       29K     94.34%
+[2017.01.27-17.58.04:729][ 36]LogMemory:      13104         8         8         31           67   10955   13056     396K      116K       30K     94.14%
+[2017.01.27-17.58.04:729][ 36]LogMemory:      16384        10        12         36          956   13120   16384     576K       64K        9K     98.59%
+[2017.01.27-17.58.04:729][ 36]LogMemory:      21840        18        22         41          150   16392   21766     874K      278K      135K     88.28%
+[2017.01.27-17.58.04:729][ 36]LogMemory:      32768        17        18         28          105   21863   32640     896K      192K      189K     82.63%
+[2017.01.27-17.58.04:729][ 36]LogMemory:      49152         7         8         23          249       0   49152    1104K      240K      329K     75.52%
+[2017.01.27-17.58.04:729][ 36]LogMemory:      98304         2         3          5           37       0   87760     480K      288K      137K     82.16%
+[2017.01.27-17.58.04:729][ 36]LogMemory: 
+[2017.01.27-17.58.04:729][ 36]LogMemory: 30592K allocated in pools (with 6355K slack and 2249K waste). Efficiency 92.65%
+[2017.01.27-17.58.04:729][ 36]LogMemory: Allocations 143779 Current / 1137184 Total (in 454 pools)
+[2017.01.27-17.58.04:729][ 36]LogMemory: 
+[2017.01.27-17.58.04:768][ 36]LogAIModule: Creating AISystem for world Main
+[2017.01.27-17.58.04:769][ 36]LogWorld: Game class is 'Shooter_C'
+[2017.01.27-17.58.04:770][ 36]LogWorld: Bringing World /Game/Maps/Main.Main up for play (max tick rate 0) at 2017.01.27-12.58.04
+[2017.01.27-17.58.04:770][ 36]LogWorld: Bringing up level for play took: 0.000681
+[2017.01.27-17.58.04:771][ 36]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.27-17.58.04:771][ 36]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.01.27-17.58.04:771][ 36]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.01.27-17.58.04:771][ 36]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.01.27-17.58.04:772][ 36]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.01.27-17.58.04:772][ 36]LogLoad: Took 0.057201 seconds to LoadMap(/Game/Maps/Main)
+[2017.01.27-17.58.16:518][383]LogScript:Warning: Attempted to access BPEnemy_C_0 via property CallFunc_Array_Get_Item, but BPEnemy_C_0 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.16:518][383]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.16:518][383]LogScript:Warning: Attempted to access BPEnemy_C_1 via property CallFunc_Array_Get_Item, but BPEnemy_C_1 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.16:518][383]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.16:518][383]LogScript:Warning: Attempted to access BPEnemy_C_2 via property CallFunc_Array_Get_Item, but BPEnemy_C_2 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.16:518][383]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.16:518][383]LogScript:Warning: Attempted to access BPEnemy_C_3 via property CallFunc_Array_Get_Item, but BPEnemy_C_3 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.16:518][383]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.16:518][383]LogScript:Warning: Attempted to access BPEnemy_C_4 via property CallFunc_Array_Get_Item, but BPEnemy_C_4 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.16:518][383]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.16:518][383]LogScript:Warning: Attempted to access BPEnemy_C_5 via property CallFunc_Array_Get_Item, but BPEnemy_C_5 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.16:518][383]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.16:518][383]LogScript:Warning: Attempted to access BPEnemy_C_6 via property CallFunc_Array_Get_Item, but BPEnemy_C_6 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.16:518][383]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.16:519][383]LogScript:Warning: Attempted to access BPEnemy_C_7 via property CallFunc_Array_Get_Item, but BPEnemy_C_7 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.16:519][383]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.16:519][383]LogScript:Warning: Attempted to access BPEnemy_C_8 via property CallFunc_Array_Get_Item, but BPEnemy_C_8 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.16:519][383]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.16:519][383]LogScript:Warning: Attempted to access BPEnemy_C_9 via property CallFunc_Array_Get_Item, but BPEnemy_C_9 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.16:519][383]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.16:548][384]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.01.27-17.58.16:548][384]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.01.27-17.58.16:549][384]LogNet: Browse: /Game/Maps/Main
+[2017.01.27-17.58.16:549][384]LogLoad: LoadMap: /Game/Maps/Main
+[2017.01.27-17.58.16:567][384]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2017.01.27-17.58.16:567][384]LogMemory: Process Physical Memory: 218.38 MB used, 223.59 MB peak
+[2017.01.27-17.58.16:567][384]LogMemory: Process Virtual Memory: 191.93 MB used, 197.81 MB peak
+[2017.01.27-17.58.16:567][384]LogMemory: Physical Memory: 2829.63 MB used, 4034.83 MB total
+[2017.01.27-17.58.16:567][384]LogMemory: Virtual Memory: 608.29 MB used, 4095.88 MB total
+[2017.01.27-17.58.16:567][384]LogMemory: 
+[2017.01.27-17.58.16:568][384]LogMemory: Allocator Stats for binned:
+[2017.01.27-17.58.16:568][384]LogMemory: Current Memory 80.24 MB used, plus 7.38 MB waste
+[2017.01.27-17.58.16:568][384]LogMemory: Peak Memory 86.94 MB used, plus 4.75 MB waste
+[2017.01.27-17.58.16:568][384]LogMemory: Current OS Memory 87.63 MB, peak 91.69 MB
+[2017.01.27-17.58.16:568][384]LogMemory: Current Waste 1.20 MB, peak 1.40 MB
+[2017.01.27-17.58.16:568][384]LogMemory: Current Used 80.25 MB, peak 86.94 MB
+[2017.01.27-17.58.16:568][384]LogMemory: Current Slack 4.39 MB
+[2017.01.27-17.58.16:568][384]LogMemory: Allocs       143942 Current /  1308039 Total
+[2017.01.27-17.58.16:568][384]LogMemory: 
+[2017.01.27-17.58.16:568][384]LogMemory: Block Size Num Pools Max Pools Cur Allocs Total Allocs Min Req Max Req Mem Used Mem Slack Mem Waste Efficiency
+[2017.01.27-17.58.16:568][384]LogMemory: ---------- --------- --------- ---------- ------------ ------- ------- -------- --------- --------- ----------
+[2017.01.27-17.58.16:568][384]LogMemory:          8         2         2       9504        71962       8       8      74K       54K        0K    100.00%
+[2017.01.27-17.58.16:568][384]LogMemory:         16         7         7      25262       181270       9      16     394K       54K       16K     96.43%
+[2017.01.27-17.58.16:568][384]LogMemory:         32         6         6      10757       109623      17      32     336K       48K       37K     90.36%
+[2017.01.27-17.58.16:568][384]LogMemory:         48        18        18      21925       104109      33      48    1027K      125K       89K     92.27%
+[2017.01.27-17.58.16:568][384]LogMemory:         64        15        15      13208       227372      49      64     825K      135K       92K     90.42%
+[2017.01.27-17.58.16:568][384]LogMemory:         80         8         8       6141       106107      65      80     479K       33K       33K     93.55%
+[2017.01.27-17.58.16:568][384]LogMemory:         96        34        35      22232       107499      81      96    2084K       90K      133K     93.89%
+[2017.01.27-17.58.16:568][384]LogMemory:        112         8        12       3911        46196      97     112     427K       85K       18K     96.48%
+[2017.01.27-17.58.16:568][384]LogMemory:        128        15        15       7298        40147     114     128     912K       48K       31K     96.77%
+[2017.01.27-17.58.16:568][384]LogMemory:        160         7         7       2115        47707     129     160     330K      118K       38K     91.52%
+[2017.01.27-17.58.16:568][384]LogMemory:        192         7         7       1949        25205     161     192     365K       83K       26K     94.20%
+[2017.01.27-17.58.16:568][384]LogMemory:        224        22        36       5864        45052     193     224    1282K      124K       61K     95.67%
+[2017.01.27-17.58.16:568][384]LogMemory:        256         6         6       1179        37729     225     256     294K       90K       12K     96.88%
+[2017.01.27-17.58.16:568][384]LogMemory:        288        13        13       2658        33360     257     288     747K       83K       45K     94.59%
+[2017.01.27-17.58.16:568][384]LogMemory:        320         5         6        707        15233     290     320     220K       99K       12K     96.25%
+[2017.01.27-17.58.16:568][384]LogMemory:        384        12        12       1711        14097     322     384     641K      124K       62K     91.93%
+[2017.01.27-17.58.16:568][384]LogMemory:        448        15        15       2052         5846     386     448     897K       62K       76K     92.08%
+[2017.01.27-17.58.16:568][384]LogMemory:        512        11        11       1080        10353     450     512     540K      164K       19K     97.30%
+[2017.01.27-17.58.16:568][384]LogMemory:        576        10        11        736        10444     514     576     414K      222K       34K     94.69%
+[2017.01.27-17.58.16:568][384]LogMemory:        640         2         2        102          519     580     640      63K       65K        3K     97.66%
+[2017.01.27-17.58.16:568][384]LogMemory:        704         5         5        319         2933     642     704     219K      101K        9K     97.19%
+[2017.01.27-17.58.16:568][384]LogMemory:        768         7         8        356         3470     706     768     267K      180K       10K     97.77%
+[2017.01.27-17.58.16:568][384]LogMemory:        896         5         6        290         1482     769     896     253K       67K       15K     95.31%
+[2017.01.27-17.58.16:568][384]LogMemory:       1024         8         8        271        25343     899    1024     271K      241K        5K     99.02%
+[2017.01.27-17.58.16:568][384]LogMemory:       1168         8         8        329         1566    1025    1168     375K      136K       16K     96.88%
+[2017.01.27-17.58.16:568][384]LogMemory:       1360         4         4        143          922    1171    1360     189K       66K       12K     95.31%
+[2017.01.27-17.58.16:568][384]LogMemory:       1632         7        11        171         1473    1361    1632     272K      175K       30K     93.30%
+[2017.01.27-17.58.16:568][384]LogMemory:       2048        13        13        241         2042    1640    2048     482K      350K       60K     92.79%
+[2017.01.27-17.58.16:568][384]LogMemory:       2336         6         6        140         2088    2050    2335     319K       65K       35K     90.89%
+[2017.01.27-17.58.16:568][384]LogMemory:       2720         5         5         88          655    2340    2718     233K       86K       13K     95.94%
+[2017.01.27-17.58.16:568][384]LogMemory:       3264         8         9        100         8702    2722    3264     318K      192K       21K     95.90%
+[2017.01.27-17.58.16:568][384]LogMemory:       4096        21        22        236          979    3266    4096     944K      400K       91K     93.23%
+[2017.01.27-17.58.16:568][384]LogMemory:       4672        15        16        165          563    4104    4670     752K      207K       47K     95.10%
+[2017.01.27-17.58.16:568][384]LogMemory:       5456        14        19        106          496    4674    5453     564K      332K       48K     94.64%
+[2017.01.27-17.58.16:568][384]LogMemory:       6544        16        20        102          415    5461    6542     651K      372K       59K     94.24%
+[2017.01.27-17.58.16:568][384]LogMemory:       8192        10        11         64         2332    6545    8192     512K      128K       61K     90.47%
+[2017.01.27-17.58.16:568][384]LogMemory:       9360         8         8         50          118    8200    9360     457K       55K       32K     93.75%
+[2017.01.27-17.58.16:568][384]LogMemory:      10912         8         8         43         1486    9408   10592     458K       54K       28K     94.53%
+[2017.01.27-17.58.16:568][384]LogMemory:      13104         8         8         31           74   10955   13056     396K      116K       30K     94.14%
+[2017.01.27-17.58.16:568][384]LogMemory:      16384        11        12         36         1180   13120   16384     576K      128K        9K     98.72%
+[2017.01.27-17.58.16:568][384]LogMemory:      21840        18        22         41          162   16392   21766     874K      278K      136K     88.19%
+[2017.01.27-17.58.16:568][384]LogMemory:      32768        17        18         28          115   21863   32640     896K      192K      194K     82.17%
+[2017.01.27-17.58.16:568][384]LogMemory:      49152         7         8         23          257       0   49152    1104K      240K      329K     75.52%
+[2017.01.27-17.58.16:568][384]LogMemory:      98304         2         3          5           45       0   87760     480K      288K      140K     81.77%
+[2017.01.27-17.58.16:568][384]LogMemory: 
+[2017.01.27-17.58.16:568][384]LogMemory: 30592K allocated in pools (with 6355K slack and 2267K waste). Efficiency 92.59%
+[2017.01.27-17.58.16:568][384]LogMemory: Allocations 143770 Current / 1298729 Total (in 454 pools)
+[2017.01.27-17.58.16:568][384]LogMemory: 
+[2017.01.27-17.58.16:603][384]LogAIModule: Creating AISystem for world Main
+[2017.01.27-17.58.16:605][384]LogWorld: Game class is 'Shooter_C'
+[2017.01.27-17.58.16:608][384]LogWorld: Bringing World /Game/Maps/Main.Main up for play (max tick rate 0) at 2017.01.27-12.58.16
+[2017.01.27-17.58.16:608][384]LogWorld: Bringing up level for play took: 0.001552
+[2017.01.27-17.58.16:609][384]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.27-17.58.16:609][384]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.01.27-17.58.16:609][384]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.01.27-17.58.16:609][384]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.01.27-17.58.16:611][384]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.01.27-17.58.16:611][384]LogLoad: Took 0.062902 seconds to LoadMap(/Game/Maps/Main)
+[2017.01.27-17.58.31:777][837]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2017.01.27-17.58.36:205][949]LogScript:Warning: Attempted to access BPEnemy_C_0 via property CallFunc_Array_Get_Item, but BPEnemy_C_0 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.36:205][949]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.36:205][949]LogScript:Warning: Attempted to access BPEnemy_C_1 via property CallFunc_Array_Get_Item, but BPEnemy_C_1 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.36:205][949]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.36:205][949]LogScript:Warning: Attempted to access BPEnemy_C_2 via property CallFunc_Array_Get_Item, but BPEnemy_C_2 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.36:205][949]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.36:205][949]LogScript:Warning: Attempted to access BPEnemy_C_3 via property CallFunc_Array_Get_Item, but BPEnemy_C_3 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.36:205][949]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.36:205][949]LogScript:Warning: Attempted to access BPEnemy_C_4 via property CallFunc_Array_Get_Item, but BPEnemy_C_4 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.36:205][949]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.36:205][949]LogScript:Warning: Attempted to access BPEnemy_C_5 via property CallFunc_Array_Get_Item, but BPEnemy_C_5 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.36:205][949]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.36:205][949]LogScript:Warning: Attempted to access BPEnemy_C_6 via property CallFunc_Array_Get_Item, but BPEnemy_C_6 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.36:205][949]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.36:205][949]LogScript:Warning: Attempted to access BPEnemy_C_7 via property CallFunc_Array_Get_Item, but BPEnemy_C_7 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.36:205][949]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.36:205][949]LogScript:Warning: Attempted to access BPEnemy_C_8 via property CallFunc_Array_Get_Item, but BPEnemy_C_8 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.36:205][949]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.36:206][949]LogScript:Warning: Attempted to access BPEnemy_C_10 via property CallFunc_Array_Get_Item, but BPEnemy_C_10 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.36:206][949]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.36:206][949]LogScript:Warning: Attempted to access BPEnemy_C_11 via property CallFunc_Array_Get_Item, but BPEnemy_C_11 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.36:206][949]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.36:206][949]LogScript:Warning: Attempted to access BPEnemy_C_13 via property CallFunc_Array_Get_Item, but BPEnemy_C_13 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.36:206][949]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.36:206][949]LogScript:Warning: Attempted to access BPEnemy_C_14 via property CallFunc_Array_Get_Item, but BPEnemy_C_14 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.36:206][949]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.36:206][949]LogScript:Warning: Attempted to access BPEnemy_C_15 via property CallFunc_Array_Get_Item, but BPEnemy_C_15 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.36:206][949]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.36:206][949]LogScript:Warning: Attempted to access BPEnemy_C_16 via property CallFunc_Array_Get_Item, but BPEnemy_C_16 is pending kill
+	BPGameController_C /Game/Maps/Main.Main:PersistentLevel.BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController:0A15
+[2017.01.27-17.58.36:206][949]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/BPGameController.BPGameController_C:PlayerKilled
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+	Function /Game/Blueprints/BPGameController.BPGameController_C:StopSpawningEnemies
+	Function /Game/Blueprints/BPGameController.BPGameController_C:ExecuteUbergraph_BPGameController
+
+[2017.01.27-17.58.36:248][950]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.01.27-17.58.36:248][950]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.01.27-17.58.36:249][950]LogNet: Browse: /Game/Maps/Main
+[2017.01.27-17.58.36:249][950]LogLoad: LoadMap: /Game/Maps/Main
+[2017.01.27-17.58.36:306][950]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2017.01.27-17.58.36:306][950]LogMemory: Process Physical Memory: 218.66 MB used, 226.50 MB peak
+[2017.01.27-17.58.36:306][950]LogMemory: Process Virtual Memory: 191.73 MB used, 197.81 MB peak
+[2017.01.27-17.58.36:306][950]LogMemory: Physical Memory: 2820.41 MB used, 4034.83 MB total
+[2017.01.27-17.58.36:306][950]LogMemory: Virtual Memory: 610.51 MB used, 4095.88 MB total
+[2017.01.27-17.58.36:306][950]LogMemory: 
+[2017.01.27-17.58.36:306][950]LogMemory: Allocator Stats for binned:
+[2017.01.27-17.58.36:306][950]LogMemory: Current Memory 80.67 MB used, plus 7.52 MB waste
+[2017.01.27-17.58.36:306][950]LogMemory: Peak Memory 87.25 MB used, plus 4.69 MB waste
+[2017.01.27-17.58.36:306][950]LogMemory: Current OS Memory 88.19 MB, peak 91.94 MB
+[2017.01.27-17.58.36:306][950]LogMemory: Current Waste 1.21 MB, peak 1.41 MB
+[2017.01.27-17.58.36:306][950]LogMemory: Current Used 80.67 MB, peak 87.25 MB
+[2017.01.27-17.58.36:306][950]LogMemory: Current Slack 4.51 MB
+[2017.01.27-17.58.36:306][950]LogMemory: Allocs       144047 Current /  1549924 Total
+[2017.01.27-17.58.36:306][950]LogMemory: 
+[2017.01.27-17.58.36:306][950]LogMemory: Block Size Num Pools Max Pools Cur Allocs Total Allocs Min Req Max Req Mem Used Mem Slack Mem Waste Efficiency
+[2017.01.27-17.58.36:306][950]LogMemory: ---------- --------- --------- ---------- ------------ ------- ------- -------- --------- --------- ----------
+[2017.01.27-17.58.36:306][950]LogMemory:          8         2         2       9516        85943       8       8      74K       54K        0K    100.00%
+[2017.01.27-17.58.36:306][950]LogMemory:         16         7         7      25280       216597       9      16     395K       53K       15K     96.65%
+[2017.01.27-17.58.36:306][950]LogMemory:         32         6         6      10781       132620      17      32     336K       48K       36K     90.63%
+[2017.01.27-17.58.36:306][950]LogMemory:         48        18        18      21929       121359      33      48    1027K      125K       87K     92.45%
+[2017.01.27-17.58.36:306][950]LogMemory:         64        15        15      13216       292159      49      64     826K      134K       93K     90.31%
+[2017.01.27-17.58.36:306][950]LogMemory:         80         8         8       6143       117304      65      80     479K       33K       33K     93.55%
+[2017.01.27-17.58.36:306][950]LogMemory:         96        35        35      22237       122543      81      96    2084K      154K      138K     93.84%
+[2017.01.27-17.58.36:306][950]LogMemory:        112         8        12       3915        48507      97     112     428K       84K       19K     96.29%
+[2017.01.27-17.58.36:306][950]LogMemory:        128        15        15       7304        47091     114     128     913K       47K       30K     96.88%
+[2017.01.27-17.58.36:306][950]LogMemory:        160         7         7       2117        55953     129     160     330K      118K       38K     91.52%
+[2017.01.27-17.58.36:306][950]LogMemory:        192         7         7       1950        28536     161     192     365K       83K       25K     94.42%
+[2017.01.27-17.58.36:306][950]LogMemory:        224        22        36       5864        46116     193     224    1282K      124K       61K     95.67%
+[2017.01.27-17.58.36:306][950]LogMemory:        256         6         6       1182        40160     225     256     295K       89K       12K     96.88%
+[2017.01.27-17.58.36:306][950]LogMemory:        288        13        13       2656        37871     257     288     747K       83K       44K     94.71%
+[2017.01.27-17.58.36:306][950]LogMemory:        320         5         6        707        17150     290     320     220K       99K       11K     96.56%
+[2017.01.27-17.58.36:306][950]LogMemory:        384        12        12       1716        17361     322     384     643K      122K       64K     91.67%
+[2017.01.27-17.58.36:306][950]LogMemory:        448        15        15       2052         6704     386     448     897K       62K       77K     91.98%
+[2017.01.27-17.58.36:306][950]LogMemory:        512        11        11       1080        12353     450     512     540K      164K       20K     97.16%
+[2017.01.27-17.58.36:306][950]LogMemory:        576        10        11        735        13617     514     576     413K      223K       35K     94.53%
+[2017.01.27-17.58.36:306][950]LogMemory:        640         2         2        102          630     580     640      63K       65K        4K     96.88%
+[2017.01.27-17.58.36:306][950]LogMemory:        704         5         5        320         3430     642     704     220K      100K        9K     97.19%
+[2017.01.27-17.58.36:306][950]LogMemory:        768         7         8        357         4523     706     768     267K      180K       10K     97.77%
+[2017.01.27-17.58.36:306][950]LogMemory:        896         5         6        290         1774     769     896     253K       67K       15K     95.31%
+[2017.01.27-17.58.36:306][950]LogMemory:       1024         8         8        270        35148     899    1024     270K      242K        5K     99.02%
+[2017.01.27-17.58.36:306][950]LogMemory:       1168         8         8        330         1805    1025    1168     376K      135K       16K     96.88%
+[2017.01.27-17.58.36:306][950]LogMemory:       1360         4         4        143         1167    1171    1360     189K       66K       12K     95.31%
+[2017.01.27-17.58.36:306][950]LogMemory:       1632         8        11        173         1831    1361    1632     275K      235K       32K     93.75%
+[2017.01.27-17.58.36:306][950]LogMemory:       2048        13        13        241         2515    1640    2048     482K      350K       61K     92.67%
+[2017.01.27-17.58.36:306][950]LogMemory:       2336         6         6        140         2161    2050    2335     319K       65K       35K     90.89%
+[2017.01.27-17.58.36:306][950]LogMemory:       2720         5         5         88          703    2340    2718     233K       86K       14K     95.63%
+[2017.01.27-17.58.36:306][950]LogMemory:       3264         8         9        100        11174    2722    3264     318K      192K       20K     96.09%
+[2017.01.27-17.58.36:306][950]LogMemory:       4096        21        22        237         1095    3266    4096     948K      396K       91K     93.23%
+[2017.01.27-17.58.36:306][950]LogMemory:       4672        15        16        165          621    4104    4670     752K      207K       47K     95.10%
+[2017.01.27-17.58.36:306][950]LogMemory:       5456        14        19        106          552    4674    5453     564K      332K       48K     94.64%
+[2017.01.27-17.58.36:306][950]LogMemory:       6544        16        20        102          445    5461    6542     651K      372K       60K     94.14%
+[2017.01.27-17.58.36:306][950]LogMemory:       8192        10        11         64         2915    6545    8192     512K      128K       64K     90.00%
+[2017.01.27-17.58.36:307][950]LogMemory:       9360         8         8         50          123    8200    9360     457K       55K       3
