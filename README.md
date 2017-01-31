@@ -7,6 +7,7 @@ A VR space vertical shoot game with 3D modeling by using Unreal Engine 4
 
 ## Device
 Support Oculus Rift (DK2), Oculus Rift
+
 Control by keyboard
 
 ## License
