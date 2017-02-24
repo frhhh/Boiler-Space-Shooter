@@ -3,7 +3,7 @@ A VR space vertical shoot game with 3D modeling by using Unreal Engine 4
 
 ## Game Cover Page
 
-<img src=https://github.com/frhhh/Bolier-Space-Shooter/blob/master/BSS_COVER.jpg title='Game Cover Page' width='' alt='Game Cover Page' />
+<img src=https://github.com/frhhh/Bolier-Space-Shooter/blob/master/BSS_COVER.jpg title='Game Cover Page' width='300' alt='Game Cover Page' />
 
 ## Device
 Support Oculus Rift (DK2), Oculus Rift
